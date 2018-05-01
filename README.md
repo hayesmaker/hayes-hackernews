@@ -1,5 +1,9 @@
 ### Installation Instructions
 
+  ```yarn install```
+
+### Running
+
   ```yarn start```
     Starts the development server.
 
@@ -9,11 +13,8 @@
   ```yarn test```
     Starts the test runner.
 
+App Runs from `localhost:3000`
 
-You can begin by typing:
-
-  ```cd hayes-hackernews-client```
-  ```yarn start```
 
 
 ### Implemented:
