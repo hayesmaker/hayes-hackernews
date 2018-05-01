@@ -25,3 +25,5 @@ so that took all my remaining time to try to solve, and didn't allow me enough t
 * Titles act as links to the Hacker news stories
 * Comments are implemented, the Show/Hide button toggles comments on or off.  Showing comments reloads the comments
 from the API.
+* Comments include HtML and formatting, with more time I'd add a parser to strip these.  Maybe by using js to create a div
+dynamically then adding the text to the unused div and displaying that div's 'innerHTML' only.
