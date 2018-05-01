@@ -17,7 +17,6 @@ class TopStories extends Component {
 
     hackernews.getComments(this.state.ids)
       .then((comments) => {
-        console.log('comments', comments);
         this.setState({'comments': comments});
       });
   }
@@ -27,7 +26,7 @@ class TopStories extends Component {
       <ul>
         {
           this.state.comments.map((data, index) => (
-            data.deleted ? <li>deleted</li> : <li><Comment author={data.by} text={data.text} id={data.id} key={index} /></li>
+            data.deleted ? <li>comment deleted</li> : <li><Comment author={data.by} text={data.text} id={data.id} key={index} /></li>
           ))
         }
       </ul>

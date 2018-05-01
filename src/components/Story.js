@@ -16,7 +16,6 @@ class Story extends Component {
   }
 
   onClick = () => {
-    //console.log('show thesee comments', this.state.id, this.state.comments);
     this.setState({'renderComments': !this.state.renderComments});
   }
 

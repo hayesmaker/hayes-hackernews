@@ -16,7 +16,6 @@ class TopStories extends Component {
   componentDidMount() {
     hackernews.getTopStories(this.state.resultsLen)
       .then((stories) => {
-        console.log('stories=', stories);
         this.setState({topStories: stories});
       });
   }

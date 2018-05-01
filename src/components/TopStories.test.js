@@ -34,7 +34,7 @@ describe('(Articles Test) ', function () {
     _component = shallow(
       <TopStories />
     );
-    _component.setState({topStories: [{title:'foo', comments:['poo coomments']}]});
+    _component.setState({topStories: [{title:'foo', comments:['foo coomments']}]});
     expect(_component.find(Story).length).toEqual(1);
   });
 
